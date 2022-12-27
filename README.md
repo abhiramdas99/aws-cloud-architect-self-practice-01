@@ -58,6 +58,16 @@ Lets say we are desgining the solution for ecommerce based company  name is - fl
     5.2.3) add route : destination : 0.0.0.0(any->Target : NGW(flapkart-NGW)
     5.2.4) Associate subnet : flapkart-subnet-private
     
+ 6.3) create an applicatin in elastic beanstalk and ensure that the source code of web application is automatically picked, pushed to the master branch
+      and deployed on the servers 
+  6.1) open the elastic beanstalk
+  6.2) For platform , choose a platform and then choose create application
+ 
+ 6) Code Commit 
+  6.1) create a iam user and give a codecommit and codepipeline access 
+  6.2) create a repository
+  
+  
     
 
     
